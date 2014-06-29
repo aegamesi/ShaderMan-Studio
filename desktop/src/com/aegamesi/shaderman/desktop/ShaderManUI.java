@@ -38,6 +38,8 @@ public class ShaderManUI extends JPanel {
 	
 	public void addCanvas() {
 		add(canvas.getCanvas());
+		frame.setVisible(true);
+		canvas.getCanvas().requestFocus();
 	}
 
 	public void paintComponent(Graphics _g) {

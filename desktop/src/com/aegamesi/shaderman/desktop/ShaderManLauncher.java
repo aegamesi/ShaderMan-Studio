@@ -22,6 +22,5 @@ public class ShaderManLauncher {
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.getContentPane().add(new ShaderManUI(frame, canvas, shaderMan));
 		frame.pack();
-		frame.setVisible(true);
 	}
 }
